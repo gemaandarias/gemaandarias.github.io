@@ -46,6 +46,9 @@ body{
 .name :hover{
     color:cornflowerblue;
 }
+.name p{ 
+    font-size:30px;
+}
 .nav{
     padding: 5px 5px ; 
     list-style: none;
@@ -132,17 +135,89 @@ body{
 	
 	
 }
-.vid{
-	
+
+
+
+.formu{
+	background-color: rgba(18,14,6,0.80);
+	padding:10px;
+	display: flex;
+    justify-content: center;
+	flex-direction:column;
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	border-radius:20px;
+	color:white;
 	
 }
 
 
+form p:last-child {
+  clear: both;
+  width: 100%;
+}
+
+.wrapper {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+.wrapper > * {
+  padding: 5px;
+}
+form label {
+  display: block;
+}
+button,input,textarea {
+  padding: 5px;
+}
+button {
+  background: lightgrey;
+  width: 100%;
+  border: 0;
+}
+button:hover, button:focus {
+  background: aquamarine;
+  
+}
+input:focus,textarea:focus {
+  outline: 3px solid aquamarine;
+	
+}
+.cuadro{
+	margin :20px 70px 10px 70px;	
+}
+.contacto{
+	background-color: rgba(0,0,2,0.8);
+	color:white;
+    padding: 100px;
+    display: flex;
+	border-radius:10px;
+	overflow: hidden;
+	width: 800px;
+	flex-direction:column;
+}
+.info{
+	margin:010px 20px 10px 5px;
+}
+.info1 p{
+	margin:010px 20px 10px 5px;
+	font-size:30px;
+	border-bottom:1px solid white;
+	font-family:condiment;
+}
 #pie{
     background-color: rgba(0,0,0,0.8);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items:center;
     text-decoration:none;
-    padding: 40px 40px;
+    padding: 60px 40px;
+}
+#pie img{
+	width: 50px; 
+	height: 50px;
+	border-radius:20px;
+	margin-left:20px;
+	margin-right:20px;
 }
