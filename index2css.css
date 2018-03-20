@@ -91,6 +91,7 @@ body{
 	border-radius: 30px;
 	border: white 5px inset
 }
+
  
 #center{
 	display: flex;
@@ -106,6 +107,14 @@ body{
 	border: white 5px inset
 }
 
+.foto3 img{
+	position:relative;
+    padding: 5px 5px;
+	margin :40px;
+	height: 300px;
+	border-radius: 30px;
+	border: white 5px inset
+}
 
 .titu{
     background-color: rgba(0,0,2,0.5);
@@ -137,8 +146,9 @@ body{
 .tex1{
     background-color: rgba(0,0,2,0.8);
 	color:white;
-    padding: 100px;
+    padding: 50px;
     display: flex;
+	align-items: center;
 	border-radius:10px;
 	overflow: hidden;
 	
